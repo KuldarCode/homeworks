@@ -1,0 +1,11 @@
+num1 = int(input("add first number: "))
+num2 = int(input("add second number: "))
+num3: int = int(input("add third number: "))
+#wanted to creat line like: print("biggest number is "(max(num1, num2, num3)))
+#print("the biggest nr is {:.b2}.") .format("num1", "num2", "num3")
+print(max(num1, num2, num3))
+print(min(num1, num2, num3))
+tehe = int(num1 + num2 + num3)
+tehe2 = tehe / 3
+print(" av {:.2f}".format(tehe2))
+print( "the biggest nr is {:.2f} .".format(max(num1, num2, num3)))
