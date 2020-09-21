@@ -9,9 +9,5 @@ while number1 is not randomNumber:
         print("random number is smaller!")
     if number1 < randomNumber:
         print("random number is bigger!")
-if number1 > randomNumber:
-    print("random number is smaller!")
-if number1 < randomNumber:
-    print("random number is smaller!")
 if number1 == randomNumber:
     print("well done!")
