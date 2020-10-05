@@ -1,10 +1,9 @@
-num1 = 0
-num2 = 1
-print( 1, end=" " )
-while True:
-    num3 = num1 + num2
-    if num3 > 1000:
-        break
-    print( num3, end=" " )
-    num1 = num2
-    num2 = num3
+div3 = 0
+word1 = input("add first word: ")
+word2 = input("add a second word: ")
+common = ""
+for letter in word1:
+    if (letter in word2) and (letter not in common):
+        common += letter
+
+# I DONT UNDERSTAND ! xD
