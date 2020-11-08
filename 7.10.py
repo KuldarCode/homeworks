@@ -1,13 +1,6 @@
-#num = 1
-#while num <=10:
-    #num1 = 1
-    #while num1 <=10:
-        #print(num * num1, end="  ")
-        #num1= num1 +1
-
-    #num= num+1
-    #print("")
-for j in range(1, 10):
-    for i in range(1, 10):
-        print(i * j, end=" ")
-    print("")
+insertNum = int(input("insert a number, so you can see, if its a Prime number or not: "))
+if insertNum / insertNum == insertNum:
+    print("Its Prime number ")
+if ins
+if insertNum
+    print("its not a Prime number")

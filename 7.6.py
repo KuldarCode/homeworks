@@ -1,8 +1,13 @@
-word1 = input("add a word: ")
-word2 = input("add a second word: ")
-letter = ""
-if (letter in word1) or (letter in word2):
-    letter +=""
-    print()
-# nested loop!
-#
+match = 0
+letter = 0
+name = "rMike"
+name2 = "kuldar"
+for letter in name:
+    #print(letter)
+    for letter2 in name2:
+        if letter == letter2:
+            match +=1
+
+       # if letter
+        #print(letter + " " + letter2)
+print(match)
