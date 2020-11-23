@@ -1,5 +1,3 @@
-
-
 def roundit( number ):
     roundedNr = round(float(number))
     print(roundedNr)
