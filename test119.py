@@ -1,11 +1,9 @@
-from random import randint
-count = 5
-randomDice = 0
-randomDice1 = 0
-while count >= 1:
-    randomDice = randint(1,6)
-    count = count -1
-    print(randomDice)
-    if randomDice1 <= randomDice:
-    if randomDice > randomDice1:
 
+
+from math import sqrt
+
+def pythagoras( a, b ):
+    if a > 0 and b > 0:
+        return sqrt( a*a + b*b )
+print( pythagoras( 3, 4 ) )
+print( pythagoras( -3, 4 ) )
