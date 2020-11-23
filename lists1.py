@@ -16,9 +16,11 @@ for word in words:
     word = word.replace(".", "")
     word = word.replace(",", "")
     word = word.lower()
+    word1 = data.find("If")
     if word == "wood":
         print("wood")
         countWood += 1
+    print(word1)
     print(word)
 print(countWood)
 #    print(len(word))

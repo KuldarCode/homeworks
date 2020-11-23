@@ -1,7 +1,11 @@
-number1 = 0
-number2 = 1
-print(1, end= "")
-while True:
-    number3 = number1 + number2
-    if number3 > 1000:
-        break
+def roundit( number ):
+    roundedNr = round(float(number))
+    print(roundedNr)
+    if roundedNr % 2 == 0:
+        print("True")
+    else:
+        print("False")
+roundit(1.8)
+roundit(1.1)
+roundit(5.6)
+roundit(17.6)
