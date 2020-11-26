@@ -1,5 +1,3 @@
-
-
 from math import sqrt
 
 def pythagoras( a, b ):

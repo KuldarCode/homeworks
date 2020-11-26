@@ -1,15 +1,15 @@
-def closest_nr1():
+def closest_nr1(your_pick, the_list):
     closest_nr = 1
     minimum = float("inf")
-    the_list = [1, 2, 3, 1, 102, 312, 23, 431, 42, 12, 1, 432]
-    your_pick = int(input("add a number: "))
 
-    for number in the_list:
-        if abs(
-                number - your_pick) < minimum:
-            minimum = abs(number - your_pick)
+    for current_number in the_list:
+        if abs(current_number - your_pick) < minimum:
+            minimum = abs(current_number - your_pick)
+            closest_nr = current_number
 
-    print(closest_nr)
+    return closest_nr
 
 
-closest_nr1()
+yourpick1 = float(input("add a number: "))
+numbers = [1.3, 4123, 12, 246]
+print(closest_nr1(yourpick1, numbers))
