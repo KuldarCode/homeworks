@@ -8,8 +8,21 @@ def closest_nr1(your_pick, the_list):
             closest_nr = current_number
 
     return closest_nr
+def getnumber(asknumber):
+    ants = float(input("add a another number: "))
+    return ants
+
+def getlist(size):
+
+    return [3, 412, 123, 12]
 
 
-yourpick1 = float(input("add a number: "))
-numbers = [1.3, 4123, 12, 246]
+numbers = getlist(8)
+
+
+
+yourpick1 =  getnumber(1)
+print(closest_nr1(yourpick1, numbers))
+
+yourpick1 =  getnumber(1)
 print(closest_nr1(yourpick1, numbers))
