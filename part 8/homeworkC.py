@@ -12,14 +12,14 @@ def getnumber(asknumber):
     ants = float(input("add a another number: "))
     return ants
 
-def getlist(size):
+#def getlist(size):
 
-    return [3, 412, 123, 12]
+    #list =
 
 
 numbers = getlist(8)
 
-
+print(getlist(3))
 
 yourpick1 =  getnumber(1)
 print(closest_nr1(yourpick1, numbers))
